@@ -21,13 +21,16 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+![Desktop version](screenshots/desktop.png)
+#### Mobile
+![Mobile version](screenshots/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/arjawa/profile-card)
-- Live Site URL: [Add live site URL here](https://arjawa.github.io/profile-card)
+- Solution URL: [https://github.com/arjawa/profile-card](https://github.com/arjawa/profile-card)
+- Live Site URL: [https://arjawa.github.io/profile-card](https://arjawa.github.io/profile-card)
 
 ## My process
 
@@ -41,10 +44,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwindcss](https://tailwindcss.com) - Tailwindcss framework
+- [W3schools](https://w3schools.com).
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- My website - [https://arjawa.tk](https://arjawa.tk)
+- Frontend Mentor - [@arjawa](https://www.frontendmentor.io/profile/arjawa)
