@@ -1,0 +1,29 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
+  background-position: 150px 350px, -400px -350px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 600px 600px;
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-position: 250px 1200px, -250px -400px;
+    background-size: 900px 900px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-position: 700px 300px, -220px -570px;
+  }
+}

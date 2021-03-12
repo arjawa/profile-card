@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+  
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- css -->
+  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!-- contents -->
+  <div class="h-screen w-full flex flex-col justify-center items-center space-y-5">
+    
+    <!-- card -->
+    <div class="h-96 mx-6 rounded-xl bg-white">
+      <!-- card container -->
+      <div class="h-full w-full flex flex-col justify-between">
+        
+        <!-- svg pattern -->
+        <div class="h-2/5 w-full">
+          <img class="h-full w-full rounded-t-xl" src="images/bg-pattern-card.svg" alt="bg-pattern-card" />
+        </div>
+        
+        <!-- profile details -->
+        <div class="relative h-2/5 w-full shadow">
+          <div class="absolute -top-12 w-full h-full flex flex-col items-center space-y-5">
+            <img class="h-24 w-24 rounded-full border-4 border-white" src="images/image-victor.jpg" alt="Victor">
+            <div class="h-auto w-full flex flex-col items-center font-kumbh">
+              <span class="font-semibold">Victor Crest <span class="font-extralight text-gray-500">26</span></span>
+              <span class="font-extralight text-gray-500">London</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- followers, likes photos -->
+        <div class="h-1/4 w-full">
+          <div class="h-full w-full flex justify-around items-center font-kumbh">
+            <div class="flex flex-col items-center">
+              <span class="font-semibold">80K</span>
+              <span class="text-xs text-gray-500">Followers</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="font-semibold">803K</span>
+              <span class="text-xs text-gray-500">Likes</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="font-semibold">1.4K</span>
+              <span class="text-xs text-gray-500">Photos</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- end card container -->
+    </div>
+    <!-- end card -->
+    
+    <div class="attribution font-kumbh">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Arjawa</a>.
+    </div>
+    
+  </div>
+  <!-- end contents -->
+  
+</body>
+</html>
