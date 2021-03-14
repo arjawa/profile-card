@@ -17,9 +17,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Screenshots
 
 #### Desktop
-![Desktop version](screenshots/desktop.png)
+![Desktop version](screenshots/profile_desktop.png)
 #### Mobile
-![Mobile version](screenshots/mobile.png)
+![Mobile version](screenshots/profile_mobile.png)
 
 ## Credits
 
